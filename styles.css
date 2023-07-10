@@ -76,10 +76,11 @@
     height: 300px;
 }
 
-.rm-img {
+.second-p .rm-img {
     align-items: center;
     width: 100%;
-    
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 header {
