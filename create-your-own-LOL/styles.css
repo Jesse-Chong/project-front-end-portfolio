@@ -1,0 +1,34 @@
+.background-container {
+    background: linear-gradient(to bottom, #330867, #1d5f85, #30cfd0, #1d5f85,#330867);
+    animation: gradientAnimation 8s linear infinite;
+    background-size: 200% 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+header {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    text-align: center;
+    background-clip: text;
+    font-size: 20px;
+    letter-spacing: 8px;
+    -webkit-background-clip: text;
+  }
