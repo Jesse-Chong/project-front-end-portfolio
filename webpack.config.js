@@ -1,5 +1,5 @@
 const path = require('path');
-const stream = require('stream-http');
+
 
 module.exports = {
   mode: 'development',
