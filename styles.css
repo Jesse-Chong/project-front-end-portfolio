@@ -91,3 +91,25 @@ header {
     padding-top: 40px;
     padding-bottom: 20px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav ul {
+    list-style: none;
+    border: 3px groove rgb(16, 71, 101);
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(15, 73, 36);
+    font-size: large;
+  }
+  a:hover {
+    background-color: rgb(127, 88, 28);
+    opacity: 0.5;
+  }
