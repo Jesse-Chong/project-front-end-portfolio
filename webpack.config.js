@@ -1,4 +1,5 @@
 const path = require('path');
+const stream = require('stream-http');
 
 module.exports = {
   mode: 'development',
@@ -24,4 +25,13 @@ module.exports = {
       },
     ],
   },
-  }
+  resolve: {
+    fallback: {
+      stream: require.resolve('stream-http'),
+      https: false,
+      http: false,
+      fs: false,
+      crypto: false
+    },
+  },
+};

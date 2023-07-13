@@ -44,3 +44,41 @@ header {
     90%{color: DodgerBlue;}
     100%{color: orange;}
    }
+
+   .champion-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .champion-info img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  #championContainer p {
+    border: 5px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+     
+   .skills-container {
+    margin-top: 10px;
+  }
+  
+  .skill {
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .skill p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
