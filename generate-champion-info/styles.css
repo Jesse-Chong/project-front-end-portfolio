@@ -87,3 +87,18 @@ header {
     font-size: 14px;
     margin-top: 5px;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(15, 73, 36);
+    font-size: large;
+  }
+
+  a:hover {
+    background-color: rgb(193, 46, 9);
+  }

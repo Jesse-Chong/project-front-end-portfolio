@@ -32,3 +32,18 @@ header {
     letter-spacing: 8px;
     -webkit-background-clip: text;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(15, 73, 36);
+    font-size: large;
+  }
+
+  a:hover {
+    background-color: rgb(193, 46, 9);
+  }
