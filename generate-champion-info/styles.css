@@ -45,6 +45,11 @@ header {
     100%{color: orange;}
    }
 
+   #explanation {
+    color: rgb(249, 95, 0);
+    font-weight: bold;
+   }
+
    .champion-info h2 {
     font-size: 24px;
     font-weight: bold;
