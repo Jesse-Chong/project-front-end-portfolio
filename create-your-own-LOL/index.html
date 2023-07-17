@@ -24,8 +24,61 @@
         <div class="form-container">
             <div class="Generate champion">Generate your own rick and morty champion</div>
             <form id="champ-form">
-            <label for="name">Name:</label>
-            <input type="text" id="champ-form" placeholder="Please enter name" required/>
+            <label for="champ-id"></label>
+            <input type="number" id="champ-id" min=1 max=3 placeholder="Enter champ ID as a base" required/>
+
+            <label for="champ-img"></label>
+            <input type="image" id="champ-img" placeholder="Enter img url"/>
+
+            <label for="champ-name">Name:</label>
+            <input type="text" id="champ-name" placeholder="Enter name"/>
+
+            <label for="champ-lore">Lore:</label>
+            <input type="text" id="champ-lore" placeholder="Enter lore"/>
+
+            <label for="champ-attribute">Attributes:</label>
+            <input type="text" id="champ-attribute" placeholder="Enter attributes"/>
+
+            <label for="champ-passive">Passive:</label>
+            <input type="text" id="champ-passive" placeholder="Enter passive"/>
+
+            <label for="skill-q-name">(Q):</label>
+            <input type="text" id="skill-q-name" placeholder="Enter Q name"/>
+
+            <label for="skill-q-description">Description:</label>
+            <input type="text" id="skill-q-description" placeholder="Enter Q description"/>
+
+            <label for="skill-q-cooldown">Cooldown:</label>
+            <input type="number" id="skill-q-cooldown" placeholder="Enter Q cooldown"/>
+
+            <label for="skill-w-name">(W):</label>
+            <input type="text" id="skill-w-name" placeholder="Enter W name"/>
+
+            <label for="skill-w-description">Description:</label>
+            <input type="text" id="skill-w-description" placeholder="Enter W description"/>
+
+            <label for="skill-w-cooldown">Cooldown:</label>
+            <input type="number" id="skill-w-cooldown" placeholder="Enter W cooldown"/>
+
+            <label for="skill-e-name">(E):</label>
+            <input type="text" id="skill-e-name" placeholder="Enter E name"/>
+
+            <label for="skill-e-description">Description:</label>
+            <input type="text" id="skill-e-description" placeholder="Enter E description"/>
+
+            <label for="skill-e-cooldown">Cooldown:</label>
+            <input type="number" id="skill-e-cooldown" placeholder="Enter E cooldown"/>
+
+            <label for="skill-r-name">(Ultimate):</label>
+            <input type="text" id="skill-r-name" placeholder="Enter R name"/>
+
+            <label for="skill-r-description">Description:</label>
+            <input type="text" id="skill-r-description" placeholder="Enter R description"/>
+
+            <label for="skill-r-cooldown">Cooldown:</label>
+            <input type="number" id="skill-r-cooldown" placeholder="Enter R cooldown"/>
+
+            <button type="submit">Submit</button>
         </form> 
         </div>
     </div>

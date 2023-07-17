@@ -58,3 +58,63 @@ fetch('https://rickandmortyapi.com/api/character/2')
 .catch(error => {
     console.log('Error:', error);
  })
+
+ const champForm = document.getElementById('champ-form');
+ champForm.addEventListener('submit', submitChampion);
+
+ function submitChampion(event) {
+    event.preventDefault();
+
+const champIdInput = document.getElementById('champ-id');
+const champImgInput = document.getElementById('champ-img');
+const champNameInput = document.getElementById('champ-name');
+const champLoreInput = document.getElementById('champ-lore');
+const champAttributeInput = document.getElementById('champ-attribute');
+const champPassiveInput = document.getElementById('champ-passive');
+const skillQNameInput = document.getElementById('skill-q-name');
+const skillQDescriptionInput = document.getElementById('skill-q-description');
+const skillQCooldownInput = document.getElementById('skill-q-cooldown');
+const skillWNameInput = document.getElementById('skill-w-name');
+const skillWDescriptionInput = document.getElementById('skill-w-description');
+const skillWCooldownInput = document.getElementById('skill-w-cooldown');
+const skillENameInput = document.getElementById('skill-e-name');
+const skillEDescriptionInput = document.getElementById('skill-e-description');
+const skillECooldownInput = document.getElementById('skill-e-cooldown');
+const skillRNameInput = document.getElementById('skill-r-name');
+const skillRDescriptionInput = document.getElementById('skill-r-description');
+const skillRCooldownInput = document.getElementById('skill-r-cooldown');
+
+const championData = {
+    id: champIdInput.value,
+    image: champImgInput.value,
+    name: champNameInput.value,
+    lore: champLoreInput.value,
+    attribute: champAttributeInput.value,
+    skills: {
+        passive: champPassiveInput.value,
+        q: {
+            name: skillQNameInput.value,
+            description: skillQDescriptionInput.value,
+            cooldown: skillQCooldownInput.value
+        },
+        w: {
+            name: skillWNameInput.value,
+            description: skillWDescriptionInput.value,
+            cooldown: skillWCooldownInput.value
+        },
+        e: {
+            name: skillENameInput.value,
+            description: skillEDescriptionInput.value,
+            cooldown: skillECooldownInput.value
+        },
+        r: {
+            name: skillRNameInput.value,
+            description: skillRDescriptionInput.value,
+            cooldown: skillRCooldownInput.value
+        }
+    }
+}
+
+console.log(championData);
+champForm.reset();
+}
